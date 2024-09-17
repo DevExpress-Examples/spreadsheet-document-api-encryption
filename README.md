@@ -5,17 +5,18 @@
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
 
-<!-- default file list -->
-*Files to look at*:
+# Spreadsheet Document API - How to Load and Save Password-Encrypted Files
+
+This example demonstrates the use of the [DocumentSettings.Encryption](https://docs.devexpress.com/OfficeFileAPI/DevExpress.Spreadsheet.DocumentSettings.Encryption) options, the [WorkbookImportOptions.Password](https://docs.devexpress.com/OfficeFileAPI/DevExpress.XtraSpreadsheet.Import.WorkbookImportOptions.Password) property, the [Workbook.EncryptedFilePasswordRequest](https://docs.devexpress.com/OfficeFileAPI/DevExpress.Spreadsheet.Workbook.EncryptedFilePasswordRequest) and [Workbook.EncryptedFilePasswordCheckFailed](https://docs.devexpress.com/OfficeFileAPI/DevExpress.Spreadsheet.Workbook.EncryptedFilePasswordCheckFailed) events to load and save a password-encrypted file.
+
+## Files to Review
 
 * [Program.cs](./CS/EncryptionExample/Program.cs) (VB: [Program.vb](./VB/EncryptionExample/Program.vb))
-<!-- default file list end -->
 
-# How to load and save password-encrypted files
+## Documentation
 
-This example demonstrates the use of the <a href="http://help.devexpress.com/#CoreLibraries/DevExpressSpreadsheetDocumentSettings_Encryptiontopic">DocumentSettings.Encryption</a> options, the <a href="http://help.devexpress.com/#CoreLibraries/DevExpressXtraSpreadsheetImportWorkbookImportOptions_Passwordtopic">WorkbookImportOptions.Password</a> property, the <a href="https://docs.devexpress.com/OfficeFileAPI/DevExpress.Spreadsheet.Workbook.EncryptedFilePasswordRequest">Workbook.EncryptedFilePasswordRequest</a> and <a href="https://docs.devexpress.com/OfficeFileAPI/DevExpress.Spreadsheet.Workbook.EncryptedFilePasswordCheckFailed">Workbook.EncryptedFilePasswordCheckFailed</a> events to load and save a password encrypted file.
+* [How to: Open and Save Password-Encrypted Files](https://docs.devexpress.com/OfficeFileAPI/401442/spreadsheet-document-api/examples/protection/how-to-open-and-save-password-encrypted-files)
 
-<br/>
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 
