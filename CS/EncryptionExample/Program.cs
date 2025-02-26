@@ -16,7 +16,7 @@ namespace EncryptionExample
         {
             Workbook workbook = new Workbook();
             workbook.Options.Import.Password = "123";
-            workbook.LoadDocument("Documents\\encrypted.xlsx");
+            workbook.LoadDocument("..\\..\\..\\Documents\\encrypted.xlsx");
 
             workbook.EncryptedFilePasswordRequest += Workbook_EncryptedFilePasswordRequest;
             workbook.EncryptedFilePasswordCheckFailed += Workbook_EncryptedFilePasswordCheckFailed;

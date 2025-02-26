@@ -12,7 +12,7 @@ Namespace EncryptionExample
         Shared Sub Main(ByVal args As String())
             Dim workbook As Workbook = New Workbook()
             workbook.Options.Import.Password = "123"
-            workbook.LoadDocument("Documents\encrypted.xlsx")
+            workbook.LoadDocument("..\..\..\Documents\encrypted.xlsx")
             AddHandler workbook.EncryptedFilePasswordRequest, AddressOf Workbook_EncryptedFilePasswordRequest
             AddHandler workbook.EncryptedFilePasswordCheckFailed, AddressOf Workbook_EncryptedFilePasswordCheckFailed
             AddHandler workbook.InvalidFormatException, AddressOf Workbook_InvalidFormatException
