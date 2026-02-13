@@ -18,7 +18,7 @@ This example demonstrates the use of the [DocumentSettings.Encryption](https://
 * [How to: Open and Save Password-Encrypted Files](https://docs.devexpress.com/OfficeFileAPI/401442/spreadsheet-document-api/examples/protection/how-to-open-and-save-password-encrypted-files)
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=spreadsheet-document-api-encryption&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=spreadsheet-document-api-encryption&~~~was_helpful=no)
 
